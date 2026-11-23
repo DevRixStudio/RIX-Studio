@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rixstudio"
+version = "1.0.0"
+description = "Python client for Rubika Bot API v3"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[tool.setuptools]
+py-modules = ["rixstudio", "rixstudio_models", "rixstudio_queue", "rixstudio_errors"]
